@@ -116,7 +116,7 @@
      <x>0</x>
      <y>0</y>
      <width>867</width>
-     <height>19</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuShop">
@@ -166,6 +166,9 @@
    <property name="text">
     <string>Copy shop data to clipboard</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+C</string>
+   </property>
   </action>
   <action name="actionAutomatically_refresh_items">
    <property name="checkable">
@@ -187,10 +190,16 @@
    <property name="text">
     <string>Refresh</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
   </action>
   <action name="actionUpdate_shop">
    <property name="text">
     <string>Update shop thread at forums</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
    </property>
   </action>
   <action name="actionAutomatically_update_shop">
